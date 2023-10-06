@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* main - Prints selected random number*/
-
-/* Return: (0) Success */
+/**
+ *  main - Entry point
+ *
+ *  Description: 'To check Random numbers if [positive or negative'
+ * 
+ * Return: (0) Success */
 int main(void)
 {
 	int n;
@@ -19,7 +22,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else 
+	else
 	{
 		printf("%d is negative\n", n);
 	}
