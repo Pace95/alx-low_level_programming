@@ -5,10 +5,11 @@
  *  main - Entry point
  *
  *  Description: 'To check Random numbers if [positive or negative'
- * 
- * Return: (0) Success */
-int main(void)
-{
+ *
+ * Return: (0) Success
+ */
+ int main(void)
+ {
 	int n;
 
 	srand(time(0));
