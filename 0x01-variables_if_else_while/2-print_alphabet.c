@@ -13,9 +13,10 @@ int main(void)
 char alphabet = 'a';
 do 
 {
-putchar((alphabet)'\n');
+putchar(alphabet);
 alphabet++;
 }
 while(alphabet <= 'z');
+putchar('\n')
 return (0);
 }
