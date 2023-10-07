@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
-*
 * main - Entry Point
 *
 * Description: 'Printing All Alphabets with Putchar'
@@ -11,12 +10,10 @@
 int main(void)
 {
 char alphabet = 'a';
-do 
-{
+do{
 putchar(alphabet);
 alphabet++;
-}
-while(alphabet <= 'z');
+}while (alphabet <= 'z');
 putchar('\n');
 return (0);
 }
