@@ -13,9 +13,9 @@ int main(void)
 char alphabet = 'a';
 do 
 {
-putchar(alpahbet);
+putchar(alphabet);
 alphabet++;
 }
 while(alphabet <= 'z');
-retrun (0);
+return (0);
 }
