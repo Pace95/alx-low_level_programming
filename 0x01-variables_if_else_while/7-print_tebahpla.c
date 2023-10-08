@@ -10,12 +10,11 @@
 int main(void)
 {
 	char alph = 'z';
-	do 
-	{
+
+	do {
 		putchar(alph);
 		alph--;
-	}
-	while (alph >= 'a');
+	} while (alph >= 'a');
 	putchar('\n');
 	return (0);
 }
