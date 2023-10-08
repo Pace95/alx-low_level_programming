@@ -2,20 +2,17 @@
 /**
  * main - Entry Point
  *
- * Description - 'Printing all singles digits of base ten'
+ * Description: Printing number zero to nine'
  *
- * Return:A;ways 0 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
+
 {
 	int x;
-
-	for (x = 0; x < 10; x++)
+	for (x = 0; x <= 9; x++)
 	{
-		putchar("%d", x);
+		putchar("%d\n", x);
 	}
-
-	putchar('\n');
 	return (0);
 }
