@@ -13,7 +13,7 @@ int main(void)
 	do 
 	{
 		putchar(alph);
-		alph--
+		alph--;
 	}
 	while (alph >= 'a');
 	putchar('\n');
