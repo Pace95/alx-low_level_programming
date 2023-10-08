@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main _ Entry Point
+ * main - Entry Point
  *
- * Description - ' Printing all singles digits of base ten'
+ * Description - 'Printing all singles digits of base ten'
  *
- * Return: 0 (Success)
+ * Return:A;ways 0 (Success)
  */
 
 int main(void)
@@ -16,6 +16,6 @@ int main(void)
 		printf("%d", x);
 	}
 
-	printf('\n');
+	putchar('\n');
 	return (0);
 }
