@@ -10,15 +10,15 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 28; x <= 36; x++)
+	for (x = 48; x <= 56; x++)
 	{
-		for (y = 29; y <= 37; y++)
+		for (y = 49; y <= 57; y++)
 		{
 			if (x > y)
 			{
 				putchar(x);
 				putchar(y);
-				if (x != 36 || y != 37)
+				if (x != 56 || y != 57)
 				{
 					putchar(',');
 						putchar(' ');
