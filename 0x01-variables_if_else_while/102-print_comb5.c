@@ -2,7 +2,7 @@
 /**
  * main - Entry Point
  *
- * Description: 'Printing combinations of two two digits'
+ * Description: 'Printing combinations of two two-digits'
  *
  * Return: 0 (Success)
  */
@@ -31,4 +31,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
