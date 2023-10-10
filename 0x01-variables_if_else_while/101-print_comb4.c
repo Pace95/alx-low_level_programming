@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main = Entr Point
+ * main - Entry Point
  *
  * Description: 'Printing 3 Digits Combination'
  *
