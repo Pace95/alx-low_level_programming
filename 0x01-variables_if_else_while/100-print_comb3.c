@@ -10,18 +10,21 @@ int main(void)
 {
 	int x, y;
 
-	for (x = 0; x <= 9; x++)
+	for (x = 48; x <= 56; x++)
 	{
-		for (y = x; y <= 9; y++)
+		for (y = 49; y <= 57; y++)
+		{
+			if (x > y)
 			{
-				putchar('0' + x);
-				putchar('0' + y);
-				if (x != 9 || y != 9)
+				putchar(x);
+				putchar(y);
+				if (x != 56 || y != 57)
 				{
 					putchar(',');
 						putchar(' ');
 				}
 			}
+		}
 		
 	}
 	putchar('\n');
