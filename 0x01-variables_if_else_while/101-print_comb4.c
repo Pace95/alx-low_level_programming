@@ -10,7 +10,7 @@ int main(void)
 {
 	int x, y, z;
 	{
-		for (x = 48; x < 58; n++)
+		for (x = 48; x < 58; x++)
 		{
 		for (y = 49; y < 57; y++)
 		{
