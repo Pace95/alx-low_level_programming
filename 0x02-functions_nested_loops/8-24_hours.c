@@ -19,4 +19,5 @@ void jack_bauer(void)
 			_putchar(n % 10 + '0');
 		}
 	}
+}
 		
