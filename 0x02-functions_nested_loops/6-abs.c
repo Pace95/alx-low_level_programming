@@ -4,7 +4,7 @@
  * @x: interger
  * Return: -x or x
  */
-int _abs(int)
+int _abs(int x)
 {
 	int x;
 
@@ -16,4 +16,5 @@ int _abs(int)
 	{
 		return (x);
 	}
+	return (0);
 }
