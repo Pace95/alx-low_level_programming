@@ -9,10 +9,14 @@
  */
 int main(void)
 {
-	char word[8] = "_putchar";
-	int length;
-	for (length = 0; length < 8; length++)
-		_putchar(word[length]);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
