@@ -7,7 +7,7 @@
  */
 void times_table(void)
 {
-	 int (x, n, r;
+	 int x, n, r;
 
 	 for (x = 0; x < 10; x++)
 	 {
@@ -25,4 +25,5 @@ void times_table(void)
 	 }
 	 printf("\n");
 	 }
+	 return (0);
 }
