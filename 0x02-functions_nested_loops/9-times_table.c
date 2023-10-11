@@ -25,5 +25,4 @@ void times_table(void)
 	 }
 	 printf("\n");
 	 }
-	 return (0);
 }
