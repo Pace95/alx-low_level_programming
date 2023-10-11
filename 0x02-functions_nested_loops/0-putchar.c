@@ -11,7 +11,7 @@ int main(void)
 	char word[8] = "_putchar";
 	int length;
 	for (length = 0; length < 8; length++)
-		putchar(word[length]);
-	putchar('\n');
+		_putchar(word[length]);
+	_putchar('\n');
 	return (0);
 }
