@@ -16,4 +16,5 @@ int main(void)
 			s = s + x;
 	}
 	printf("%d\n", s);
+	return (0);
 }
