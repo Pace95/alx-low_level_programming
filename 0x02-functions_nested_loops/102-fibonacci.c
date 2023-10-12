@@ -10,7 +10,7 @@ int main(void)
 	unsigned long int s;
 	int l;
 
-	printf("%d, " a);
+	printf("%lu, ", a);
 	for (l = 1; l < 50; l++)
 	{
 		printf("%lu", b);
