@@ -5,18 +5,20 @@
  */
 int main(void)
 {
-	int a = 1;
-	int b = 2;
-	int s;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
+	unsigned long int s;
 	int l;
 
 	printf("%d, " a);
-	for (l = 1; l <= 50; l++)
+	for (l = 1; l < 50; l++)
 	{
-		printf("%d", b);
+		printf("%lu", b);
 		s = a + b;
 		a = b;
 		b = s;
+		if (l != 49)
+			printf(", ");
 	}
 	printf("\n");
 	return (0);
