@@ -9,6 +9,6 @@ void _puts(char *str)
 	int x;
 
 	for (x = 0; str[x] != '\0'; x++)
-	_put(str[x]);
-	_put('\n');
+	_puts(str[x]);
+	_puts('\n');
 }
