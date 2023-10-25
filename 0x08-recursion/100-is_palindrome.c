@@ -35,7 +35,7 @@ int _compstr(char *s, int left, int right)
 /**
  * is_palindrome - Palindrome
  * @s: given pointer of a string
- * return:1 or a
+ * Return: 1 or a
  */
 int is_palindrome(char *s)
 {
