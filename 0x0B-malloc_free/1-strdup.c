@@ -31,3 +31,4 @@ char *_strdup(char *str)
 		strdest[z] = str[z];
 	}
 	return (strdest);
+}
