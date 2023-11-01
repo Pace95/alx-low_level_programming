@@ -9,7 +9,7 @@
 char *_strdup(char *str)
 {
 	unsigned int x, z;
-	char *strdest;
+char *strdest;
 
 	if (str == NULL)
 	{
@@ -17,7 +17,7 @@ char *_strdup(char *str)
 	}
 	x = 0;
 	while (str[x] != '\0')
-	{	
+	{
 		x++;
 	}
 	strdest = (char *)malloc(sizeof(char) * (x + 1));
