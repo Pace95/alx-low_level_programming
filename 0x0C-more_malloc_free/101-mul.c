@@ -38,9 +38,9 @@ int _strlen(char *s)
 }
 
 /**
- * error - handle the main errors
+ * errors - handle errors for main
  */
-void error(void)
+void errors(void)
 {
 	printf("Error\n");
 	exit(98);
@@ -50,7 +50,7 @@ void error(void)
  * main - multiplication of two positive integers
  * @argc: argument count
  * @argv: argument vector
- * Return: 0
+ * Return: 0 Success
  */
 int main(int argc, char *argv[])
 {
@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
 	s1 = argv[1], s2 = argv[2];
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
-		error();
+		errors();
 	l1 = _strlen(s1);
 	l2 = _strlen(s2);
 	l = l1 + l2 + 1;
@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
 	{
 		num1 = s1[l] - '0';
 		carry = 0;
-		for (l2 = l2 - 1; l2 >= 0; l2--)
+		for (l2 = _strlen(s2) - 1; l2 >= 0; l2--)
 		{
 		num2 = s2[l2] - '0';
 		carry += result[l1 + l2 + 1] + (num1 * num2);
@@ -93,4 +93,5 @@ int main(int argc, char *argv[])
 		_putchar('0');
 	_putchar('\n');
 	free(result);
+	return (0);
 }
