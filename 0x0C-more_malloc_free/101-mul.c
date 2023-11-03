@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 		result[x] = 0;
 	for (l1 = l1 - 1; l1 >= 0; l1--)
 	{
-		num1 = s1[l] - '0';
+		num1 = s1[l1] - '0';
 		carry = 0;
 		for (l2 = _strlen(s2) - 1; l2 >= 0; l2--)
 		{
