@@ -46,7 +46,7 @@ list_t *create_node(const char *str)
 	new_node->str = strdup(str);
 	new_node->len = len(str);
 	new_node->next = NULL;
-	return (*new_node);
+	return (new_node);
 }
 /**
  * len - lenght of string
