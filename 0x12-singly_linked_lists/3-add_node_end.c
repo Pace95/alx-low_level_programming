@@ -2,9 +2,9 @@
 int len(const char *str);
 list_t *create_node(const char *str);
 /**
- * add_node_end - add new node at the end 
+ * add_node_end - add new node at the end
  * @head: the pointer to first node
- * @str: string 
+ * @str: string
  * Return: address of new element or NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
@@ -38,13 +38,15 @@ list_t *add_node_end(list_t **head, const char *str)
 list_t *create_node(const char *str)
 {
 	list_t *new_node;
+
 	new_node = malloc(sizeof(list_t));
-	if new_node == NULL
+
+	if (new_node == NULL)
 		return (NULL);
-	new-node->str = strdup(str);
+	new_node->str = strdup(str);
 	new_node->len = len(str);
 	new_node->next = NULL;
-	return (*new_node)
+	return (*new_node);
 }
 /**
  * len - lenght of string
