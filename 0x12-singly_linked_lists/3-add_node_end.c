@@ -30,6 +30,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	tmp->next = new_node;
 	return (*head);
 }
+
 /**
  * create_node - function that creates node
  * @str: string observed
@@ -48,6 +49,7 @@ list_t *create_node(const char *str)
 	new_node->next = NULL;
 	return (new_node);
 }
+
 /**
  * len - lenght of string
  * @str: string observed
