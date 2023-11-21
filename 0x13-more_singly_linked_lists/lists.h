@@ -6,7 +6,7 @@
 #include <string.h>
 
 /**
- * struct listint_t - self referrencing struct for nodes creation
+ * struct listint_s - self referrencing struct for nodes creation
  * @n: integer data
  * @next: pointer to next node
  */
