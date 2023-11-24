@@ -10,9 +10,9 @@ unsigned int binary_to_uint(const char *b)
 	size_t x = 0;
 	size_t y = 0;
 	size_t sum = 0;
-       	size_t pow = 1;
+	size_t pow = 1;
 	int base = 2;
-	
+
 	if (b == NULL)
 		return (0);
 	for (length = 0; b[length] != '\0'; length++)
@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 		return (0);
 		for (y = length - 1; y > 0; y--)
 		pow = pow * base;
-		sum = sum + (pow * (b[1] - 48));
+		sum = sum + (pow * (b[x] - 48));
 		length--;
 		pow = 1;
 	}
