@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 			error_file(-1, 0, argv);
 		now = write(file_to, buff, noc);
 		if (now == -1)
-		error_file(0, -1. argv);
+		error_file(0, -1, argv);
 	}
 
 	err_close = close(file_from);
